@@ -1,0 +1,278 @@
+*{
+font-family: 'Mulish', sans-serif;
+margin:0;
+padding:0;
+
+
+}
+
+.navbar{
+    /* position: fixed; */
+    box-shadow: 0px 4px 2px -1px rgba(0, 0, 0, 0.284);
+
+    width:100%;
+}
+
+.nav{
+    display: flex;
+   
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 0px;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    background-color: rgb(255,255,255);
+} 
+
+.nav .nav-left{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+    gap:20px;
+}
+.address{
+    display: flex;
+
+    
+    justify-content: space-around;
+    
+    gap:10px;
+}
+.address .other{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.address .location{
+    font-weight: 100;
+    color:rgba(0, 0, 0, 0.284);
+}
+
+.nav-right{
+    width:50%;
+}
+ ul{
+    display:flex;
+    justify-content: space-around;
+    list-style-type: none;
+    
+   
+}
+
+
+.li a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #3D4152;
+}
+.content-section{
+    max-width: 1200px;
+    margin: 0 auto;
+    /* position: relative;
+    top:125px; */
+
+
+}
+.container .item-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #3d4152;
+    padding: 18px;
+    border-bottom-color: 1px solid #ddd;
+}
+.item-bar .numbers{
+    font-weight: 700;
+    font-size: 28px;
+    color: #3d4152;
+}
+.item-bar .filters{
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    color:#686b78;
+    gap:35px;
+    
+
+}
+*/
+/* .restaurent-list{
+    display:grid;
+    grid-template-columns: repeat(4,25%);
+    margin-bottom: 80px;
+    margin-top: 40px;
+    row-gap: 20px;
+}
+.place .place-link{
+    text-decoration: none;
+    background-color: #fff;
+    color:#3d4152;
+}
+.place-link .list-item{
+    padding: 20px;
+    border: 1px solid #Fff;
+}
+.place-link .list-item:hover{
+
+    border: 1px solid #d3d5df;
+    box-shadow: 0px 4px 2px -1px rgba(0, 0, 0, 0.284);
+
+}
+.top-img{
+    max-width: 100%;
+    height:auto;
+    object-fit:fill;
+}
+.item-content{
+    position: relative;
+}
+.status{
+    position: absolute;
+    top:0px;
+    background-color: rgb(58,60,65);
+    color: #Fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 5px 9px;
+    left:-8px;
+}
+.place-name{
+    margin-top: 14px;
+    word-break:normal;
+}
+.info{
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+    font-size: 12px;
+    justify-content: space-between;
+    color: #3d4152;
+    font-weight: 300;
+}
+.rating{
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+}
+ */
+
+
+
+ .food{
+    box-shadow: 0px 4px 2px -1px rgba(0, 0, 0, 0.284);
+padding: 60px;
+    
+}
+.restaurent-foods{
+    /* display:flex; */
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    column-gap: 10px;
+
+
+}
+.food{
+    /* width: 25%; */
+    /* border: 2px solid red; */
+
+}
+.food a{
+    text-decoration: none;
+    padding:20px;
+    
+}
+img{
+    width: 100%;
+    object-fit: contain;
+}
+.name{
+    font-weight: 800;
+    font-size: 20px;
+    color:#282C3F;
+    text-align: center;
+
+}
+.items{
+    color:#282C3F;
+    font-weight: 300;
+    word-break: normal;
+    font-size:15px;
+    padding-top: 2px 0;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    align-items: center;
+    margin-top: 2px 0;
+    gap:5px;
+    font-size: 15px;
+    font-weight: 100;
+    color:#282C3F;
+    /* border-bottom:1px solid rgba(0, 0, 0, 0.284); */
+
+}
+.rating{
+    display: flex;
+    align-items: center;
+    background-color: green;  
+
+}
+.time{
+    display: flex;
+    align-items: center;
+}
+
+.quick-view{
+    text-align: center;
+    color:blue;
+    font-weight: 500;
+    visibility: hidden;
+}
+.food:hover .quick-view{
+    padding: 2px;
+        border-top:1px solid rgba(0, 0, 0, 0.284);
+
+    
+    visibility: visible;
+    
+}
+/*footer*/
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: #fff;
+    padding: 40px;
+}
+.head{
+    font-size: 20px;
+    font-weight: 700;
+}
+.company{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap:10px;
+
+    
+}
+.abcd{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:40px;
+
+}
+.aaa{
+    height:10px;
+    background-color: black;
+}
